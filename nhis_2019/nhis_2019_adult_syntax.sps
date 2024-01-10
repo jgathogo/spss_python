@@ -13,10 +13,10 @@
 
 
 * Change to current working directory.
-CD 'F:\spss_python\nhis_2019'.
+CD '\\wsl.localhost\Ubuntu\home\james\lemat\spss_python\nhis_2019'.
 
 GET 
-  FILE='nhis_2019_adult.sav'. 
+  FILE='adult19spss.sav'. 
 DATASET NAME NHIS2019 WINDOW=FRONT.
 
 * NOTE: For data analysis, use your standard weighting and estimation techniques

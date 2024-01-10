@@ -143,3 +143,6 @@ dmypy.json
 *.Identifier
 /transcriptions
 /data
+praco.ipynb
+app.py
+
