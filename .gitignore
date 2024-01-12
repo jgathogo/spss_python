@@ -138,11 +138,9 @@ dmypy.json
 *.pptx
 *.jpg
 *.png
-*.sav
 *.data
 *.Identifier
 /transcriptions
-/data
 praco.ipynb
 app.py
 
