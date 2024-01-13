@@ -5,7 +5,7 @@ import pandas as pd
 from metadata import variable_labels, value_labels
 
 # Load your DataFrame from a CSV file
-csv_file_path = 'data/adult19.csv'
+csv_file_path = 'adult19.csv'
 df = pd.read_csv(csv_file_path)
 
 cols = ['VISIONDF_A', 'HEARINGDF_A', 'DIFF_A', 'COGMEMDFF_A', 'UPPSLFCR_A', 'COMDIFF_A']
