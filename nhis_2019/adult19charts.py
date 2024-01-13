@@ -1,19 +1,12 @@
 import streamlit as st
-import pyreadstat
 import plotly.express as px
 import pandas as pd
 
+from metadata import variable_labels, value_labels
 
-# Read the SPSS file
-spss_file_path = 'data/adult19.sav'
-df, meta = pyreadstat.read_sav(spss_file_path)
-
-# Variable labels
-variable_labels = meta.column_labels
-
-# Value labels
-value_labels = meta.variable_value_labels
-
+# Load your DataFrame from a CSV file
+csv_file_path = 'data/adult19.csv'
+df = pd.read_csv(csv_file_path)
 
 cols = ['VISIONDF_A', 'HEARINGDF_A', 'DIFF_A', 'COGMEMDFF_A', 'UPPSLFCR_A', 'COMDIFF_A']
 
